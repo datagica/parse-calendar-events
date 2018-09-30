@@ -1,17 +1,17 @@
 # Parse Items
 
-If an item, license or copyright is missing you can create a pull request
+If a calendar event is missing you can create a pull request
 
 ## Installation
 
-    $ npm i @datagica/parse-items
+    $ npm i @datagica/parse-calendar-events
 
 ## Usage
 
 Example:
 
 ```javascript
-await parse("The cat is on the bed")
+await parse("anniversaire sabine")
 ```
 
 Output:
@@ -19,62 +19,47 @@ Output:
 ```json
   [
     {
-      "ngram": "cat",
+      "ngram": "anniversaire",
       "position": {
-        "begin": 4,
-        "end": 7,
+        "begin": 0,
+        "end": 12,
         "sentence": 0,
-        "word": 1
+        "word": 0,
       },
       "score": 1,
       "value": {
         "aliases": {
-          "en": ["cat"],
-          "fr": ["chat"]
+          "en": [
+            "bday",
+            "birthday",
+            "birthdays",
+          ],
+          "fr": [
+            "anniv",
+            "anniversaire",
+            "anniversaires",
+          ],
         },
-        "category": "animal",
-        "icons": {
-          "FontAwesome": "paw",
-          "Ionicons": "ios-paw"
-        },
-        "id": "animal-cat",
+        "category": "party",
+        "icons": {},
+        "id": "birthday",
         "label": {
-          "en": "Cat",
-          "fr": "Chat"
+          "en": "Birthday",
+          "fr": "Anniversaire",
         },
         "locations": [
-          "living room",
-          "garden"
-        ]
-      }
-    }, {
-      "ngram": "bed",
-      "position": {
-        "begin": 18,
-        "end": 21,
-        "sentence": 0,
-        "word": 5
+          "home",
+          "bar",
+          "park",
+        ],
+        "plural": {
+          "en": "Birthdays",
+          "fr": "Anniversaires",
+        },
+        "recommend": [
+          "gift",
+        ],
       },
-      "score": 1,
-      "value": {
-        "aliases": {
-          "en": ["bed"],
-          "fr": ["lit"]
-        },
-        "category": "furniture",
-        "icons": {
-          "FontAwesome": "bed",
-          "FontAwesome5": "bed"
-        },
-        "id": "furniture-bed",
-        "label": {
-          "en": "Bed",
-          "fr": "Lit"
-        },
-        "locations": [
-          "bedroom"
-        ]
-      }
-    }
+    },
   ]
 ```
