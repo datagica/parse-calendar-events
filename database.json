@@ -1,0 +1,237 @@
+[
+  {
+    "id": "unknown",
+    "label": {
+      "en": "Unknown",
+      "fr": "Inconnu"
+    },
+    "plural": {
+      "en": "Unknowns",
+      "fr": "Inconnus"
+    },
+    "aliases": {
+      "en": [
+        "null",
+        "undefined",
+        "unknow",
+        "untitled",
+        "default"
+      ]
+    },
+    "icons": {
+    },
+    "recommend": [
+    ]
+  },
+  {
+    "id": "birthday",
+    "label": {
+      "en": "Birthday",
+      "fr": "Anniversaire"
+    },
+    "plural": {
+      "en": "Birthdays",
+      "fr": "Anniversaires"
+    },
+    "aliases": {
+      "en": [
+        "bday",
+        "birthday",
+        "birthdays"
+      ],
+      "fr": [
+        "anniv",
+        "anniversaire",
+        "anniversaires"
+      ]
+    },
+    "category": "party",
+    "locations": [
+      "home",
+      "bar",
+      "park"
+    ],
+    "icons": {
+    },
+    "recommend": [
+      "gift"
+    ]
+  },
+  {
+    "id": "office-farewell-party",
+    "label": {
+      "en": "Office farewell party",
+      "fr": "Pot de départ"
+    },
+    "plural": {
+      "en": "Office farewell parties",
+      "fr": "Pots de départ"
+    },
+    "aliases": {
+      "en": [
+        "office farewell party",
+        "office farewell",
+        "farewell",
+        "farewell party"
+      ],
+      "fr": [
+        "pot de départ",
+        "pots de départ",
+        "pot de départs",
+        "pots de départs",
+        "pot de depart",
+        "pots de depart",
+        "pot de departs",
+        "pots de departs"
+      ]
+    },
+    "category": "party",
+    "locations": [
+      "office"
+    ],
+    "icons": {
+    },
+    "recommend": [
+      "gift"
+    ]
+  },
+  {
+    "id": "relocation",
+    "label": {
+      "en": "Relocation",
+      "fr": "Déménagement"
+    },
+    "plural": {
+      "en": "Relocations",
+      "fr": "Déménagements"
+    },
+    "aliases": {
+      "en": [
+        "relocation",
+        "moving"
+      ],
+      "fr": [
+        "déménagement",
+        "demenagement",
+        "déménagements",
+        "demenagements"
+      ]
+    },
+    "category": "important",
+    "locations": [
+      "home",
+      "office"
+    ],
+    "icons": {
+    },
+    "recommend": [
+    ]
+  },
+  {
+    "id": "party",
+    "label": {
+      "en": "Party",
+      "fr": "Fête"
+    },
+    "plural": {
+      "en": "Parties",
+      "fr": "Fêtes"
+    },
+    "aliases": {
+      "en": [
+        "party",
+        "parties"
+      ],
+      "fr": [
+        "fête",
+        "fêtes",
+        "fete",
+        "fetes"
+      ]
+    },
+    "category": "party",
+    "locations": [
+      "home",
+      "bar",
+      "office"
+    ],
+    "icons": {
+    },
+    "recommend": [
+    ]
+  },
+  {
+    "id": "evening-party",
+    "label": {
+      "en": "Evening party",
+      "fr": "Soirée"
+    },
+    "plural": {
+      "en": "Evening parties",
+      "fr": "Soirées"
+    },
+    "aliases": {
+      "en": [
+        "evening party",
+        "evening parties"
+      ],
+      "fr": [
+        "soirée",
+        "soirées",
+        "soiree",
+        "soirees"
+      ]
+    },
+    "category": "party",
+    "locations": [
+      "home",
+      "bar",
+      "office"
+    ],
+    "icons": {
+    },
+    "recommend": [
+    ]
+  },
+  {
+    "id": "game-night",
+    "label": {
+      "en": "Game night",
+      "fr": "Soirée jeux"
+    },
+    "plural": {
+      "en": "Game nights",
+      "fr": "Soirées jeux"
+    },
+    "aliases": {
+      "en": [
+        "game night",
+        "games night",
+        "board game night",
+        "board games night",
+        "board game evening",
+        "board games evening",
+        "board game party",
+        "board games party"
+      ],
+      "fr": [
+        "soirée jeu",
+        "soirée jeux",
+        "soirée jeux de société",
+        "soirée jeu de société",
+        "jeux de société",
+        "jeu de société"
+      ]
+    },
+    "category": "party",
+    "locations": [
+      "home",
+      "bar",
+      "office"
+    ],
+    "icons": {
+    },
+    "recommend": [
+    ]
+  }
+]
