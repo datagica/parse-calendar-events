@@ -233,5 +233,153 @@
     },
     "recommend": [
     ]
+  },
+  {
+    "id": "thanksgiving",
+    "label": {
+      "en": "Thanksgiving",
+      "fr": "Thanksgiving"
+    },
+    "plural": {
+      "en": "Thanksgivings",
+      "fr": "Thanksgivings"
+    },
+    "aliases": {
+      "en": [
+        "Thanksgiving",
+        "Thanksgivings"
+      ],
+      "fr": [
+        "action de grâce",
+        "action de grace"
+      ]
+    },
+    "category": "festival",
+    "locations": [
+      "home"
+    ],
+    "icons": {
+    },
+    "recommend": [
+    ]
+  },
+  {
+    "id": "christmas-day",
+    "label": {
+      "en": "Christmas Day",
+      "fr": "Noël"
+    },
+    "plural": {
+      "en": "Christmas Days",
+      "fr": "Noëls"
+    },
+    "aliases": {
+      "en": [
+        "christmas",
+        "xmas",
+        "nativity"
+      ],
+      "fr": [
+        "noël",
+        "noel",
+        "nativité"
+      ]
+    },
+    "category": "festival",
+    "locations": [
+      "home"
+    ],
+    "icons": {
+    },
+    "recommend": [
+    ]
+  },
+  {
+    "id": "christmas-eve",
+    "label": {
+      "en": "Christmas Eve",
+      "fr": "Réveillon de Noël"
+    },
+    "plural": {
+      "en": "Christmas Eve",
+      "fr": "Réveillons de Noël"
+    },
+    "aliases": {
+      "en": [
+        "christmas eve",
+        "xmas eve"
+      ],
+      "fr": [
+        "réveillon de noël",
+        "reveillon de noel",
+        "veille de noël",
+        "veille de noel",
+        "réveillons de noël",
+        "reveillons de noel",
+        "veilles de noël",
+        "veilles de noel"
+      ]
+    },
+    "category": "holiday",
+    "locations": [
+      "home"
+    ],
+    "icons": {
+    },
+    "recommend": [
+    ]
+  },
+  {
+    "id": "new-year-eve",
+    "label": {
+      "en": "New Year’s Eve",
+      "fr": "Saint-sylvestre"
+    },
+    "plural": {
+      "en": "New Year’s Eves",
+      "fr": "Saint-sylvestre"
+    },
+    "aliases": {
+      "en": [
+        "new year’s eve",
+        "new year’s day",
+        "old year’s day",
+        "new year's eve",
+        "new year's day",
+        "old year's day",
+        "saint sylvester",
+        "st sylvester",
+        "saint sylvester’s day",
+        "st sylvester’s day",
+        "saint sylvester’s eve",
+        "st sylvester’s eve",
+        "saint sylvester's day",
+        "st sylvester's day",
+        "saint sylvester's eve",
+        "st sylvester's eve"
+      ],
+      "fr": [
+        "nouvel an",
+        "jour de l'an",
+        "réveillon du jour de l’an",
+        "réveillon du jour de l'an",
+        "réveillon du nouvel an",
+        "réveillon",
+        "saint-sylvestre",
+        "st sylvestre",
+        "saint sylvestre",
+        "réveillon de la saint sylvestre",
+        "réveillon de la saint-sylvestre",
+        "réveillon de la st sylvestre"
+      ]
+    },
+    "category": "festival",
+    "locations": [
+      "home"
+    ],
+    "icons": {
+    },
+    "recommend": [
+    ]
   }
 ]

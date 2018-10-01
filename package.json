@@ -1,6 +1,6 @@
 {
   "name": "@datagica/parse-calendar-events",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Extract calendar events from text",
   "main": "./index.js",
   "scripts": {
